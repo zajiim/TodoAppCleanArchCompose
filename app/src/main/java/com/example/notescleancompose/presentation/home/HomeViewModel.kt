@@ -5,7 +5,6 @@ import androidx.lifecycle.viewModelScope
 import com.example.notescleancompose.common.ScreenViewState
 import com.example.notescleancompose.data.local.model.Note
 import com.example.notescleancompose.domain.usecases.DeleteNoteUseCase
-import com.example.notescleancompose.domain.usecases.FilteredBookmarkUseCase
 import com.example.notescleancompose.domain.usecases.GetAllNotesUseCase
 import com.example.notescleancompose.domain.usecases.UpdateNewsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel

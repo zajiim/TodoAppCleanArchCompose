@@ -97,12 +97,7 @@ fun NoteCard(
                         contentDescription = null
                     )
                 }
-
             }
-
-
         }
-
     }
-
 }
