@@ -34,9 +34,14 @@ class DetailsViewmodel @AssistedInject constructor(
                 id = id,
                 title = title,
                 content = content,
-                createdDate = createdDate
+                createdDate = createdDate,
+                isBookmarked = isBookmarked
             )
         }
+
+    init {
+        initialize()
+    }
 
     private fun initialize() {
         val isUpdating = noteId != -1L

@@ -51,7 +51,7 @@ fun DetailsScreen(
         content = state.content,
         isBookmark = state.isBookmarked,
         onBookmarkChange = viewModel::onBookmarkChange,
-        isFormNotBlank = state.isUpdatingNote,
+        isFormNotBlank = viewModel.isFormNotBlank,
         onTitleChange = viewModel::onTitleChange,
         onContentChange = viewModel::onContentChange,
         onBtnClick = {
@@ -167,6 +167,7 @@ private fun NotesTextField(
         colors = TextFieldDefaults.colors(
             disabledContainerColor = Color.Transparent,
             focusedContainerColor = Color.Transparent,
+            unfocusedContainerColor = Color.Transparent,
             unfocusedIndicatorColor = Color.Transparent,
             focusedIndicatorColor = Color.Transparent
         ),

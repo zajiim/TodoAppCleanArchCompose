@@ -5,5 +5,4 @@ import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class NotesApp: Application() {
-}
+class NotesApp: Application()
